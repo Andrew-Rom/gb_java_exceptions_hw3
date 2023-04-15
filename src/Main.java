@@ -2,6 +2,10 @@ import java.util.Arrays;
 
 public class Main {
     public static void main(String[] args) {
+//        String[][] someMatrix = null; // Returns "Matrix is null"
+//        String[][] someMatrix = {{"1", "2", "3", "4"}, {"1", "2", "3", "4"}, {"1", "2", "3", "4"}}; // Returns "Size of matrix is not 4x4"
+//        String[][] someMatrix = {{"1", "2", "3", "4"}, {"1", "2", "3", "4"}, {"1", "2"}, {"1", "2", "3", "4"}}; // Returns "Size of matrix is not 4x4"
+//        String[][] someMatrix = {{"1", "2", "3", "4"}, {"1", "abc", "3", "4"}, {"1", "2", "3", "4"}, {"1", "2", "3", "4"}}; // Returns "Invalid data in array in [1, 1]"
         String[][] someMatrix = {{"1", "2", "3", "4"}, {"1", "2", "3", "4"}, {"1", "2", "3", "4"}, {"1", "2", "3", "4"}};
         try {
             sumMatrixItems(someMatrix);
